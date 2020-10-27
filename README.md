@@ -1,7 +1,7 @@
 <h1 align="center">||Transportation Survey||</h1>
 <div align="center">
 <img src="https://github.com/MaxBrockbank.png" width="200px" height="auto" >
-<img src="https://github.com/agatakolohe.png" width="200px" height="auto" >
+<a href ="https://github.com/agatakolohe"><img src="https://github.com/agatakolohe.png" width="200px" height="auto" ></a>
 </div>
 <p align="center">Authored by Max Brockabnk and Agata Kolodziej</p>
 <p align="center">Updated on Oct 26, 2020</p>
