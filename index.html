@@ -7,10 +7,47 @@
   <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Transportation Survey</title>
 </head>
 <body>
+  <div class="container">
+      <h1>How do you get around?</h1>
+      <form id="transportation">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="form-group">
+              <p>What do you like to use to get to work? (Select all that apply):</p>
+              <input type="checkbox" name="work-trans" value="train"> Ride the train <br>
+              <input type="checkbox" name="work-trans" value="uber"> Take an Uber <br>
+              <input type="checkbox" name="work-trans" value="bus"> Ride the bus <br>
+              <input type="checkbox" name="work-trans" value="car"> Drive yourself <br>
+              <input type="checkbox" name="work-trans" value="walk"> Walk <br>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-group">
+              <p>What board do you use to get around? (Select all that apply):</p>
+              <input type="checkbox" name="fun-trans" value="longboard"> Longboard rides <br>
+              <input type="checkbox" name="fun-trans" value="skateboard"> Skateboard rides <br>
+              <input type="checkbox" name="fun-trans" value="pennyboard"> Pennyboard rides <br>
+              <input type="checkbox" name="fun-trans" value="banannaboard"> Bananaboard rides <br>
+              <input type="checkbox" name="fun-trans" value="boardless"> No board <br>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit Survey</button>
+      </form>
+  </div>
+  <div class="container" id="results">
+    <div class="row">
+      <div class="col-lg-6" id="work-trans-results">
+        
+      </div>
+      <div class="col-lg-6" id="fun-trans-results">
 
-
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
